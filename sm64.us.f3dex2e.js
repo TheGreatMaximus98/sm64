@@ -1665,7 +1665,7 @@ function isDataURI(filename) {
 
 
 
-var wasmBinaryFile = 'sm64.us.f3dex2e.wasm';
+var wasmBinaryFile = '../game/sm64.wasm';
 if (!isDataURI(wasmBinaryFile)) {
   wasmBinaryFile = locateFile(wasmBinaryFile);
 }
@@ -9511,5 +9511,4 @@ run();
 
 
 // {{MODULE_ADDITIONS}}
-
 
